@@ -52,7 +52,7 @@ class Housing {
         class Land_i_House_Big_02_b_yellow_F : Land_i_House_Big_02_b_blue_F{};
 		
         class Land_i_House_Big_01_V1_F {
-            price = 2200000;
+            price = 3200000;
             numberCrates = 4;
             restrictedPos[] = {2,3};
             canGarage = false;
