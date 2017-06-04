@@ -13,9 +13,9 @@ class EditorData
 	class Camera
 	{
 		pos[]={7945.5181,88.383347,9105.9385};
-		dir[]={0.32351857,-0.6998204,-0.63686717};
-		up[]={0.31694877,0.71431822,-0.62393409};
-		aside[]={-0.89156902,9.5576979e-008,-0.45290318};
+		dir[]={-0.048143882,-0.27525997,-0.96017152};
+		up[]={-0.013784606,0.96136981,-0.27492067};
+		aside[]={-0.99875522,2.1868618e-007,0.050077748};
 	};
 };
 binarizationWanted=0;
@@ -150,6 +150,12 @@ class ScenarioData
 {
 	author="XFiRE";
 	disabledAI=1;
+	class Header
+	{
+		gameType="RPG";
+		minPlayers=1;
+		maxPlayers=100;
+	};
 };
 class CustomAttributes
 {
@@ -199,6 +205,8 @@ class Mission
 {
 	class Intel
 	{
+		briefingName="Malden Life RPG";
+		overviewText="Malden Life RPG";
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
 		startWind=0.1;
@@ -306,7 +314,6 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 			id=12;
-			atlOffset=0.4671936;
 		};
 		class Item9
 		{
@@ -317,7 +324,6 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 			id=13;
-			atlOffset=0.30487061;
 		};
 		class Item10
 		{
@@ -11535,7 +11541,6 @@ class Mission
 			colorName="ColorGreen";
 			angle=287.28958;
 			id=353;
-			atlOffset=0.1574707;
 		};
 		class Item308
 		{
@@ -11719,7 +11724,6 @@ class Mission
 			};
 			id=358;
 			type="Land_Atm_02_F";
-			atlOffset=0.15953064;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13427,6 +13431,7 @@ class Mission
 				angles[]={0,3.6050768,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -13434,7 +13439,7 @@ class Mission
 			};
 			id=449;
 			type="Land_CashDesk_F";
-			atlOffset=19.335257;
+			atlOffset=0.040604591;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13502,7 +13507,7 @@ class Mission
 			colorName="ColorRed";
 			angle=29.585485;
 			id=456;
-			atlOffset=0.91038895;
+			atlOffset=0.12694931;
 		};
 		class Item373
 		{
@@ -14292,7 +14297,6 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 			id=602;
-			atlOffset=0.23236847;
 		};
 		class Item414
 		{
@@ -14767,7 +14771,7 @@ class Mission
 			};
 			id=630;
 			type="Land_CashDesk_F";
-			atlOffset=0.2370491;
+			atlOffset=0.010303497;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14801,6 +14805,7 @@ class Mission
 				angles[]={6.2815905,1.5372492,0.00021770374};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -14808,7 +14813,7 @@ class Mission
 			};
 			id=631;
 			type="Land_CashDesk_F";
-			atlOffset=10.547662;
+			atlOffset=0.05912447;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -22641,7 +22646,7 @@ class Mission
 			text="@STR_MAR_Air_Service";
 			type="respawn_air";
 			colorName="Color1_FD_F";
-			angle=56.837677;
+			angle=56.837673;
 			id=1016;
 			atlOffset=0.054626465;
 		};
@@ -25862,6 +25867,7 @@ class Mission
 						angles[]={0,1.3863953,0};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -25870,7 +25876,6 @@ class Mission
 					};
 					id=25;
 					type="C_man_1";
-					atlOffset=0.3094635;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -25904,6 +25909,7 @@ class Mission
 						angles[]={0,6.1742644,0};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -25912,7 +25918,6 @@ class Mission
 					};
 					id=26;
 					type="C_man_1";
-					atlOffset=0.4704895;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -26934,6 +26939,7 @@ class Mission
 						angles[]={0,4.6241465,0};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -26942,7 +26948,6 @@ class Mission
 					};
 					id=367;
 					type="C_man_1";
-					atlOffset=0.5039444;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27829,6 +27834,7 @@ class Mission
 						angles[]={0,0.59130675,0};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -27837,7 +27843,7 @@ class Mission
 					};
 					id=452;
 					type="C_man_shorts_3_F_euro";
-					atlOffset=19.769512;
+					atlOffset=2.8610229e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -28377,7 +28383,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7954.5293,32.201435,9065.9551};
-						angles[]={0,4.8589592,-0};
+						angles[]={0,4.8589592,0};
 					};
 					side="Civilian";
 					flags=4;
