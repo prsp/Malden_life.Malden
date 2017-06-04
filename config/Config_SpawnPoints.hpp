@@ -243,29 +243,29 @@ class CfgSpawnPoints {
     class Malden {
 
         class Civilian {
-            class Georgetown {
-                displayName = "Georgetown";
+            class Leport {
+                displayName = "Le Port";
                 spawnMarker = "civ_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "!license_civ_rebel";
             };
 
-            class Balavu {
-                displayName = "Balavu";
-                spawnMarker = "civ_spawn_3";
-                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                conditions = "";
-            };
-
-            class Tuvanaka {
-                displayName = "Tuvanaka";
+            class Houdan {
+                displayName = "Houdan";
                 spawnMarker = "civ_spawn_2";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
 
-            class Lijnhaven {
-                displayName = "Lijnhaven";
+            class Saintlouis {
+                displayName = "Saint Louis";
+                spawnMarker = "civ_spawn_3";
+                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+                conditions = "";
+            };
+
+            class Lapessagne {
+                displayName = "La Pessagne";
                 spawnMarker = "civ_spawn_4";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
