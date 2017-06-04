@@ -1,5 +1,7 @@
 # Malden_life.Malden
 
+Altis Life or [Altis Life RPG] is developed by AsYetUntitled (prior ArmaLife developers), originally created by Tonic AKA [TAW_Tonic] (https://github.com/TAWTonic).
+
 ฝากโปรเจคใหม่ด้วยนะครับ ARMA 3 Malden Life Roleplay 2035 (WIP)
 
 Malden 2035 เป็น DLC ตัวใหม่ ที่กำลังจะแจกฟรี อีกไม่กี่วันนี้ โดยสิ่งที่เพิ่มมาใหม่ คือ สิ่งก่อสร้างเปลี่ยนสี -_-  
