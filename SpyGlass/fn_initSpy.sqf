@@ -9,7 +9,8 @@
 
     Will also become a standalone system which is why it's setup like this.
 */
-private ["_binConfigPatches","_cfgPatches","_endM"];
+exitWith {};
+//private ["_binConfigPatches","_cfgPatches","_endM"];
 if (isServer && !hasInterface) exitWith {}; //Server doesn't need to know.
 #define CONST(var1,var2) var1 = compileFinal (if (var2 isEqualType "") then {var2} else {str(var2)})
 #define RCLIENT -2
@@ -208,7 +209,7 @@ _patchList =
 "A3_Structures_F_Argo_Decals_Horizontal","A3_Structures_F_Argo_Industrial","A3_Structures_F_Argo_Industrial_Agriculture","A3_Structures_F_Argo_Industrial_Materials","A3_Structures_F_Argo_Infrastructure","A3_Structures_F_Argo_Infrastructure_Runways","A3_Structures_F_Argo_Infrastructure_Seaports",
 "A3_Structures_F_Argo_Infrastructure_WaterSupply","A3_Structures_F_Argo_Military","A3_Structures_F_Argo_Military_Bunkers","A3_Structures_F_Argo_Military_ContainerBases","A3_Structures_F_Argo_Military_Domes","A3_Structures_F_Argo_Military_Fortifications","A3_Structures_F_Argo_Military_Turrets",
 "A3_Structures_F_Argo_Signs_City","A3_Structures_F_Argo_Signs","A3_Structures_F_Argo_Signs_Directions","A3_Structures_F_Argo_Signs_Warnings","A3_Structures_F_Argo_Walls","A3_Structures_F_Argo_Walls_City","A3_Structures_F_Argo_Walls_Concrete","A3_Structures_F_Argo_Walls_Military",
-"A3_Structures_F_Argo_Walls_Net","A3_Structures_F_Argo_Walls_Pipe","A3_Structures_F_Argo_Walls_Tin","A3_Structures_F_Argo_Walls_Wooden","A3_Structures_F_Argo_Wrecks","A3_Vegetation_F_Argo","A3_Armor_F_Argo","A3_Armor_F_Argo_APC_Tracked_01","A3_Data_F_Jets","A3_Data_F_Jets","A3_Data_F_Jets","A3_Data_F_Jets","A3_Data_F_Jets","A3_Data_F_Jets","A3_Data_F_Jets","A3_Data_F_Jets","A3_Data_F_Jets","A3_Data_F_Jets","A3_Data_F_Jets","A3_Data_F_Jets","A3_Data_F_Jets","A3_Data_F_Jets"];
+"A3_Structures_F_Argo_Walls_Net","A3_Structures_F_Argo_Walls_Pipe","A3_Structures_F_Argo_Walls_Tin","A3_Structures_F_Argo_Walls_Wooden","A3_Structures_F_Argo_Wrecks","A3_Vegetation_F_Argo","A3_Armor_F_Argo","A3_Armor_F_Argo_APC_Tracked_01","A3_Armor_F_Argo_APC_Wheeled_02","A3_Data_F_Argo_Loadorder","A3_Data_F_Patrol_Loadorder"];
 
 uiNamespace setVariable ["RscDisplayRemoteMissions",displayNull]; //For Spy-Glass..
 uiNamespace setVariable ["RscDisplayMultiplayer",displayNull];
