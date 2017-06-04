@@ -294,9 +294,9 @@ class CfgSpawnPoints {
         };
 
         class Cop {
-            class NAirport {
-                displayName = $STR_SP_Cop_Air_N;
-                spawnMarker = "cop_spawn_1";
+            class Houdan {
+                displayName = "Houdan";
+                spawnMarker = "cop_spawn_2";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
@@ -308,14 +308,14 @@ class CfgSpawnPoints {
                 conditions = "";
             };
 
-            class GeorgetownHQ {
-                displayName = "Georgetown HQ";
-                spawnMarker = "cop_spawn_2";
+            class LaTriniteHQ {
+                displayName = "La TriniteHQ";
+                spawnMarker = "cop_spawn_1";
                 icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
                 conditions = "";
             };
 
-            class Air {
+            class NAirport {
                 displayName = $STR_MAR_Police_Air_HQ;
                 spawnMarker = "cop_spawn_4";
                 icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";

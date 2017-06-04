@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1122;
+		nextID=1127;
 	};
 	class Camera
 	{
-		pos[]={6648.7461,124.22199,8835.04};
-		dir[]={-0.5821619,-0.5267989,-0.61938995};
-		up[]={-0.36079806,0.84997594,-0.38387045};
-		aside[]={-0.72869521,-4.1536987e-007,0.68489653};
+		pos[]={7948.0571,54.562393,9077.5537};
+		dir[]={0.32351857,-0.6998204,-0.63686717};
+		up[]={0.31694877,0.71431822,-0.62393409};
+		aside[]={-0.89156902,9.5576979e-008,-0.45290318};
 	};
 };
 binarizationWanted=0;
@@ -217,7 +217,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=746;
+		items=749;
 		class Item0
 		{
 			dataType="Marker";
@@ -11325,7 +11325,7 @@ class Mission
 		class Item293
 		{
 			dataType="Marker";
-			position[]={1604.2517,3.8156104,4654.5156};
+			position[]={8098.4692,22.933048,8791.5586};
 			name="Rebelop_2";
 			text="@STR_MAR_Rebel_Outpost";
 			type="mil_triangle";
@@ -22641,7 +22641,7 @@ class Mission
 			text="@STR_MAR_Air_Service";
 			type="respawn_air";
 			colorName="Color1_FD_F";
-			angle=56.837681;
+			angle=56.837677;
 			id=1016;
 			atlOffset=0.054626465;
 		};
@@ -26716,8 +26716,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1609.891,3.7089264,4656.1548};
-						angles[]={0.033588443,3.0050211,6.2591896};
+						position[]={8104.1084,23.057741,8793.1982};
+						angles[]={0.016798066,3.0050211,0.036783949};
 					};
 					side="Civilian";
 					flags=4;
@@ -26730,7 +26730,6 @@ class Mission
 					};
 					id=337;
 					type="O_Soldier_F";
-					atlOffset=-2.3841858e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -28378,7 +28377,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7954.5293,32.201435,9065.9551};
-						angles[]={0,2.003119,0};
+						angles[]={0,4.8589592,-0};
 					};
 					side="Civilian";
 					flags=4;
@@ -29822,6 +29821,129 @@ class Mission
 			type="Empty";
 			id=1120;
 			atlOffset=-105.26423;
+		};
+		class Item746
+		{
+			dataType="Marker";
+			position[]={1046.9869,3.4410689,670.50555};
+			name="Rebelop_1";
+			text="@STR_MAR_Rebel_Outpost";
+			type="mil_triangle";
+			colorName="Color1_FD_F";
+			id=1122;
+			atlOffset=0.0099971294;
+		};
+		class Item747
+		{
+			dataType="Marker";
+			position[]={1045.0621,3.0972695,690.40399};
+			name="reb_v_2";
+			type="Empty";
+			angle=285.16611;
+			id=1123;
+			atlOffset=0.0044002533;
+		};
+		class Item748
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1056.8033,4.0285501,659.39423};
+						angles[]={0.028790962,5.2351255,0.041575778};
+					};
+					side="Civilian";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeallWeapons this; this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Rebel_Market"",life_fnc_virt_menu,""rebel""]; this addAction[localize ""STR_MAR_Rebel_Clothing_Shop"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide isEqualTo civilian']; this addAction[localize ""STR_MAR_Rebel_Weapon_Shop"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide isEqualTo civilian']; this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide isEqualTo civilian ']; this addAction[localize""STR_NOTF_ATM"",life_fnc_atmMenu,"""",0,false,false,"""",' isNull objectParent player && player distance _target < 4 '];";
+						name="reb_1_1";
+						disableSimulation=1;
+					};
+					id=1125;
+					type="O_Soldier_F";
+					atlOffset=0.0032072067;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1049.5944,3.2956765,701.44305};
+						angles[]={0.0207968,3.4708891,0.074263111};
+					};
+					side="Civilian";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeallWeapons this; this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,""reb_v_2"",""reb"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_rebel'];";
+						name="reb_1_3_1";
+						disableSimulation=1;
+					};
+					id=1126;
+					type="O_Soldier_F";
+					atlOffset=0.013396263;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1124;
+			atlOffset=0.0032072067;
 		};
 	};
 };
