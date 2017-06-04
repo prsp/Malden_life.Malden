@@ -198,7 +198,9 @@ _patchList =
 "A3_Static_F_Jets_AAA_System_01", "A3_Data_F_Jets", "A3_Dubbing_F_Jets", "A3_EditorPreviews_F_Jets", "A3_Functions_F_Jets", "A3_Language_F_Jets", "A3_LanguageMissions_F_Jets",
 "A3_Modules_F_Jets", "A3_Music_F_Jets", "A3_Sounds_F_Jets", "A3_Static_F_Jets", "A3_Static_F_Jets_SAM_System_01", "A3_Static_F_Jets_SAM_System_02", "A3_Ui_F_Jets",
 "A3_Weapons_F_Jets", "A3_Air_F_Jets", "A3_Air_F_Jets_Plane_Fighter_01", "A3_Air_F_Jets_Plane_Fighter_02", "A3_Air_F_Jets_Plane_Fighter_04", "A3_Air_F_Jets_UAV_05",
-"A3_Anims_F_Jets", "A3_Boat_F_Jets", "A3_Boat_F_Jets_Carrier_01", "A3_Cargoposes_F_Jets", "A3_Characters_F_Jets", "A3_Characters_F_Jets_Vests", "A3_Missions_F_Jets","A3_Data_F_Jets_Loadorder","A3_Data_F_Patrol","A3_Dubbing_F_Patrol"];
+"A3_Anims_F_Jets", "A3_Boat_F_Jets", "A3_Boat_F_Jets_Carrier_01", "A3_Cargoposes_F_Jets", "A3_Characters_F_Jets", "A3_Characters_F_Jets_Vests", "A3_Missions_F_Jets","A3_Data_F_Jets_Loadorder",
+"A3_Data_F_Patrol","A3_Dubbing_F_Patrol","A3_EditorPreviews_F_Patrol","A3_Functions_F_Patrol","A3_Language_F_Patrol","A3_LanguageMissions_F_Patrol","A3_Modules_F_Patrol","A3_Music_F_Patrol","A3_Sounds_F_Patrol","A3_Ui_F_Patrol",
+"A3_Sounds_F_Patrol","A3_Characters_F_Patrol","A3_Weapons_F_Patrol","A3_Data_F_Argo","A3_EditorPreviews_F_Argo","A3_Map_Malden","A3_Language_F_Argo","A3_Map_Malden_Data","A3_Map_Malden_Data_Layers"];
 
 uiNamespace setVariable ["RscDisplayRemoteMissions",displayNull]; //For Spy-Glass..
 uiNamespace setVariable ["RscDisplayMultiplayer",displayNull];
