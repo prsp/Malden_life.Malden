@@ -5,6 +5,7 @@
     Description:
     
 */
+
 StartProgress = false;
 
 if (hasInterface) then {
@@ -13,3 +14,6 @@ if (hasInterface) then {
 [] execVM "KRON_Strings.sqf";
 
 StartProgress = true;
+
+DYNAMICMARKET_boughtItems = [];
+[player] remoteExec ["TON_fnc_playerLogged",RSERV];
