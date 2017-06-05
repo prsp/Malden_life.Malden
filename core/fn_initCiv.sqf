@@ -8,7 +8,8 @@
 */
 private _altisArray = ["Land_i_Shop_01_V1_F","Land_i_Shop_01_V2_F","Land_i_Shop_01_V3_F","Land_i_Shop_02_V1_F","Land_i_Shop_02_V2_F","Land_i_Shop_02_V3_F"];
 private _tanoaArray = ["Land_House_Small_01_F"];
-private _spawnBuildings = [[["Altis", _altisArray], ["Tanoa", _tanoaArray]]] call TON_fnc_terrainSort;
+private _maldenArray = ["Land_Church_01_V2_F","Land_i_Shop_02_b_blue_F","Land_i_Shop_02_b_blue_F","Land_i_Shop_02_b_pink_F","Land_i_Shop_02_b_whiteblue_F","Land_i_Shop_02_b_white_F"];
+private _spawnBuildings = [[["Altis", _altisArray], ["Tanoa", _tanoaArray], ["Malden", _maldenArray]]] call TON_fnc_terrainSort;
 
 civ_spawn_1 = nearestObjects[getMarkerPos  "civ_spawn_1", _spawnBuildings,350];
 civ_spawn_2 = nearestObjects[getMarkerPos  "civ_spawn_2", _spawnBuildings,350];
