@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1186;
+		nextID=1187;
 	};
 	class Camera
 	{
-		pos[]={8291.6768,24.368086,3133.9282};
-		dir[]={-0.9657439,-0.25275245,0.059236206};
-		up[]={-0.25229585,0.96752441,0.01547501};
-		aside[]={0.061224796,-4.3655746e-008,0.99814874};
+		pos[]={7914.124,38.395893,9329.085};
+		dir[]={0.67823899,-0.53018409,0.50894004};
+		up[]={0.42408228,0.84786969,0.31822565};
+		aside[]={0.60023201,7.5408025e-007,-0.79990101};
 	};
 };
 binarizationWanted=0;
@@ -1231,6 +1231,7 @@ class Mission
 				angles[]={0,2.3466117,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -1238,7 +1239,7 @@ class Mission
 			};
 			id=69;
 			type="Land_CashDesk_F";
-			atlOffset=0.49224854;
+			atlOffset=0.010612488;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1355,6 +1356,7 @@ class Mission
 				angles[]={0,5.5624619,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -1362,7 +1364,6 @@ class Mission
 			};
 			id=72;
 			type="Land_Atm_02_F";
-			atlOffset=0.92995453;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3263,13 +3264,13 @@ class Mission
 		class Item160
 		{
 			dataType="Marker";
-			position[]={8022.7607,29.771839,10134.047};
+			position[]={8129.8887,30.102875,10454.695};
 			name="atm_marker_4";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=171.9792;
+			angle=261.78555;
 			id=311;
-			atlOffset=0.13907814;
+			atlOffset=0.029272079;
 		};
 		class Item161
 		{
@@ -3360,8 +3361,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8022.7788,31.029579,10133.771};
-				angles[]={0.00069053395,6.1295819,0};
+				position[]={8129.6113,31.359938,10454.674};
+				angles[]={6.2816033,1.4138048,6.2824135};
 			};
 			side="Empty";
 			flags=4;
@@ -3372,7 +3373,6 @@ class Mission
 			};
 			id=317;
 			type="Land_Atm_02_F";
-			atlOffset=0.11044884;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3944,7 +3944,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7982.1514,32.326149,9520.1064};
-				angles[]={0,3.1164513,0};
+				angles[]={-0,3.1164513,0};
 			};
 			side="Empty";
 			flags=4;
@@ -20476,7 +20476,7 @@ class Mission
 			text="@STR_MAR_Chop_Shop";
 			type="o_armor";
 			colorName="Color1_FD_F";
-			angle=181.05557;
+			angle=181.05554;
 			id=922;
 		};
 		class Item690
@@ -25550,6 +25550,7 @@ class Mission
 						angles[]={0,5.6075807,0};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -25558,7 +25559,6 @@ class Mission
 					};
 					id=78;
 					type="C_man_p_fugitive_F_asia";
-					atlOffset=0.48163605;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -25643,7 +25643,6 @@ class Mission
 					};
 					id=80;
 					type="C_man_1";
-					atlOffset=0.15465546;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -26368,7 +26367,7 @@ class Mission
 					};
 					id=149;
 					type="B_diver_F";
-					atlOffset=0.10671234;
+					atlOffset=0.10671282;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -28353,10 +28352,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8020.1738,67.419632,9528.3984};
-						angles[]={0,4.7837877,0};
+						position[]={8020.1738,30.949354,9528.3984};
+						angles[]={-0,4.7837877,6.2711854};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -28365,7 +28365,6 @@ class Mission
 					};
 					id=371;
 					type="C_man_polo_3_F";
-					atlOffset=36.470284;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -28395,9 +28394,10 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7984.6582,67.511719,9520.9785};
+						position[]={7984.6582,31.041439,9520.9785};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -28406,7 +28406,6 @@ class Mission
 					};
 					id=372;
 					type="B_RangeMaster_F";
-					atlOffset=36.470284;
 					class CustomAttributes
 					{
 						class Attribute0

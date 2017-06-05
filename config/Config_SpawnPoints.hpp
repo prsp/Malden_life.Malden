@@ -250,22 +250,22 @@ class CfgSpawnPoints {
                 conditions = "!license_civ_rebel";
             };
 
-            class Houdan {
-                displayName = "Houdan";
+            class Dourdan {
+                displayName = "Dourdan";
                 spawnMarker = "civ_spawn_2";
+                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+                conditions = "";
+            };
+
+            class Cancon {
+                displayName = "Cancon";
+                spawnMarker = "civ_spawn_3";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
 
             class Saintlouis {
                 displayName = "Saint Louis";
-                spawnMarker = "civ_spawn_3";
-                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                conditions = "";
-            };
-
-            class Lapessagne {
-                displayName = "La Pessagne";
                 spawnMarker = "civ_spawn_4";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
@@ -294,8 +294,8 @@ class CfgSpawnPoints {
         };
 
         class Cop {
-            class Houdan {
-                displayName = "Houdan";
+            class Leport {
+                displayName = "Le port";
                 spawnMarker = "cop_spawn_2";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
@@ -339,7 +339,7 @@ class CfgSpawnPoints {
                 conditions = "";
             };
 
-            class TanoukaHospital {
+            class Hospital {
                 displayName = $STR_SP_EMS_Tan;
                 spawnMarker = "medic_spawn_2";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
