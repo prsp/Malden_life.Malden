@@ -37,8 +37,8 @@ class Life_Settings {
 
 /* System Settings */
     /* ATM & Federal Reserve System Configurations */
-    global_ATM = false; //Allow users to access any ATM on the map (Marked & Unmarked).
-    noatm_timer = 10; //Time in minutes that players cannot deposit money after selling stolen gold.
+    global_ATM = true; //Allow users to access any ATM on the map (Marked & Unmarked).
+    noatm_timer = 20; //Time in minutes that players cannot deposit money after selling stolen gold.
     minimum_cops = 5; //Minimum cops required online to rob the Federal Reserve
 
     /*Death settings*/
