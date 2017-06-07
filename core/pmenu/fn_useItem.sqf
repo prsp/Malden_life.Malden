@@ -77,6 +77,13 @@ switch (true) do {
         closeDialog 0;
     };
 
+	case (_item isEqualTo "marijuana"): {
+    if(([false,_item,1] call life_fnc_handleInv)) then
+	{
+        [] spawn life_fnc_weed;
+		};
+    };
+	
     case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","donuts","tbacon","peach"]): {
         if (!(M_CONFIG(getNumber,"VirtualItems",_item,"edible") isEqualTo -1)) then {
             if ([false,_item,1] call life_fnc_handleInv) then {

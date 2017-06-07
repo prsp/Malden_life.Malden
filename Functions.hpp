@@ -8,6 +8,7 @@ class Socket_Reciever {
         class syncData {};
         class updatePartial {};
         class updateRequest {};
+		class tazeRagdoll {};
     };
 };
 
@@ -281,6 +282,7 @@ class Life_Client_Core {
         class placestorage {};
         class spikeStrip {};
         class storageBox {};
+		class weed {};
     };
 
     class Medical_System {

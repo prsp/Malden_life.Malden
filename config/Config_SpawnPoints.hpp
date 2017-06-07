@@ -250,8 +250,8 @@ class CfgSpawnPoints {
                 conditions = "!license_civ_rebel";
             };
 
-            class Dourdan {
-                displayName = "Dourdan";
+            class Latrinite {
+                displayName = "La Trinite";
                 spawnMarker = "civ_spawn_2";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
@@ -308,8 +308,8 @@ class CfgSpawnPoints {
                 conditions = "";
             };
 
-            class LaTriniteHQ {
-                displayName = "La TriniteHQ";
+            class HW {
+                displayName = $STR_MAR_Highway_Patrol;
                 spawnMarker = "cop_spawn_1";
                 icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
                 conditions = "";
@@ -322,8 +322,8 @@ class CfgSpawnPoints {
                 conditions = "call life_coplevel >= 2 && {license_cop_cAir}";
             };
 
-            class HW {
-                displayName = $STR_MAR_Highway_Patrol;
+            class PoliceStation {
+			displayName = "Police Station";
                 spawnMarker = "cop_spawn_5";
                 icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
                 conditions = "call life_coplevel >= 3";
@@ -333,21 +333,21 @@ class CfgSpawnPoints {
         class Medic {
 
             class SEHospital {
-                displayName = $STR_SP_EMS_SE;
+                displayName = "Airport Hospital";
                 spawnMarker = "medic_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";
             };
 
             class Hospital {
-                displayName = $STR_SP_EMS_Tan;
+                displayName = "Hight Way Hospital";
                 spawnMarker = "medic_spawn_2";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";
             };
 
             class NEAirportHospital {
-                displayName = $STR_SP_EMS_NEair;
+                displayName = "Chapoi Hospital";
                 spawnMarker = "medic_spawn_3";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";

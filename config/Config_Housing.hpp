@@ -261,10 +261,7 @@ class Housing {
             garageBlacklists[] = {};
             lightPos[] = {2,0,2.4};
         };
-    };
- 
-	class Altis {
-
+    
         class Land_i_House_Big_02_V1_F {
             price = 1550000;
             numberCrates = 3;
