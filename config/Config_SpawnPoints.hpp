@@ -264,13 +264,6 @@ class CfgSpawnPoints {
                 conditions = "";
             };
 
-            class Saintlouis {
-                displayName = "Saint Louis";
-                spawnMarker = "civ_spawn_4";
-                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                conditions = "";
-            };
-
             class RebelNW {
                 displayName = $STR_SP_Reb_NW;
                 spawnMarker = "Rebelop";
